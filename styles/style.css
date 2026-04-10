@@ -33,10 +33,10 @@
 .decorated-zone::before {
   content: "";
   position: absolute;
-  top: 10px;
+  bottom: 10px;
   left: 10px;
   border: 1px solid var(--decor-color);
-  border-bottom: 0;
+  border-top: 0;
   border-right: 0;
   inline-size: 25px;
   block-size: 25px;
@@ -190,6 +190,12 @@
   display: grid;
   gap: 10px;
   padding-block-end: 40px;
+}
+
+.gallery_list {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
 }
 
 .gallery_list-item-image {
